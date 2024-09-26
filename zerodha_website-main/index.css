@@ -1,0 +1,244 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+    }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow:2px 1px 2px #eee;
+    position: sticky;
+    top: 0;
+    background-color: white;
+  }
+  
+  html {
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .body {
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 100%;
+  } 
+  h1{
+    font-size:40px;
+  }
+  .para1{
+    font-size: 18px;
+  }
+  
+  /* descendent selector in css  */
+  
+  nav a {
+    text-decoration: none;
+    padding: 20px;
+  }
+  .header{
+    padding-top:25px;
+    padding-left: 20px;
+    padding-right:80px;
+    padding-bottom: 25px;
+  }
+  .head_part{
+    position:fixed;
+    top:0;
+    bottom:0;
+    width:100%;
+  }
+ #zerodha_logo{
+  width:200px;
+  padding-left:60px;
+  padding-right:20px;
+ }
+  
+  #a{
+    color:grey;
+  }
+  #a:hover{
+    color:lightskyblue;
+  }
+  
+  #landing_img {
+    height: 60vh;
+    width: 75%;
+  }
+  
+  #one {
+    display: grid;
+    place-items: center;
+    gap: 15px;
+  }
+  
+  button {
+    background-color: rgb(56, 126, 209);
+    color: white;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    margin-top: 25px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  button:hover{
+      background-color: black;
+      cursor: pointer;
+  }
+  .sec1 p{
+    color:grey;
+    line-height: 1.8;
+  }
+  
+  #three{
+  
+      display: grid;
+      place-items: center;
+  
+  }
+  
+  .svg{
+      width: 100px;
+      bottom:-50px;
+      
+  }
+  .p2{
+    margin-right:10px;
+    padding-left:2px;
+    top:-50px;
+  }
+  
+  #four #a{
+      width: 40%;
+      position:relative;
+      top:-50px;
+  }
+  
+  #four ,#four #b, #four #b div{
+  
+      display: flex;
+      flex-direction: row;
+      align-items: baseline;
+      
+  }
+  .d{ 
+      padding-top: 70px;
+  }
+
+  
+  #varsity{
+      width: 80%;
+      height: 400px;
+      gap: 20px;
+      /* display: grid;
+      grid-template-columns: auto 3fr;
+      column-gap: 40px; 
+      height:300px;
+      float:left;
+      margin-right:auto; */
+  }
+  
+  #five{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+  }
+  
+  #six{
+      display: grid;
+      place-items: center;
+  }
+  #press_logo{
+    float:right;
+    margin-left: auto;
+    width:60%;
+    height:700px;
+  }
+  .p2{
+    font-size:12px;
+  }
+
+  #heading{
+    text-align:left;
+    display: grid;
+    justify-items: start;
+  } 
+  #press{
+    display: grid;
+    place-items: center; 
+  }
+ 
+
+#image{
+    width:125px;
+    align-items:start ;
+}
+
+    *
+    {
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+}
+.container{
+    max-width:1170px;
+    margin:auto;
+}
+.row{
+    display:flex;
+    flex-wrap: wrap;
+}
+.footer{
+    background-color:whitesmoke;
+    padding:70px 0;
+}
+.footer-col{
+    width:25%;
+    padding:0 15px;
+}
+.footer-col h4{
+    font: size 15px;
+    color:black;
+    text-transform: capitalize;
+    margin-bottom:35px; 
+    line-height: 1.5;  
+    font-weight: 500;
+    position: relative;
+}
+.footer ul li{
+    margin-bottom: 10px;
+    color:grey;
+    font-weight:300;
+}
+.footer ul li:hover{
+    color:lightblue;
+    cursor:pointer;
+}
+.social-links a{
+    display:inline-block;
+    height:40px;
+    width:40px;
+    color:grey;
+}
+.social-links a:hover{
+    color:aqua;
+}
+.footer-col1 {
+    padding-left: 100px;
+    padding-right:100px;
+    line-height: 1.5;
+    font-weight: 50;
+    color:grey;
+}
+
+
